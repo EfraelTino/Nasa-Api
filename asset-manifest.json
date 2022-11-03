@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Nasa-Api.git/static/css/main.7ff5e5fb.css",
+    "main.js": "/Nasa-Api.git/static/js/main.256e72dd.js",
+    "static/media/efrael.png": "/Nasa-Api.git/static/media/efrael.c6d44475984e39e6edee.png",
+    "index.html": "/Nasa-Api.git/index.html",
+    "main.7ff5e5fb.css.map": "/Nasa-Api.git/static/css/main.7ff5e5fb.css.map",
+    "main.256e72dd.js.map": "/Nasa-Api.git/static/js/main.256e72dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ff5e5fb.css",
+    "static/js/main.256e72dd.js"
+  ]
+}
