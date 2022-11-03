@@ -9,7 +9,7 @@ import NotFoung from './components/NotFoung';
 function App() {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route element={<Home/>} path='/' exact/>
         <Route element= {<NasaPhoto/>}  path='/nasafoto' />
