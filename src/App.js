@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './components/Home';
 import NasaPhoto from './components/NasaPhoto';
 import './App.css';
-import NotFoung from './components/NotFoung';
+import NotFound from './components/NotFound';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route element={<Home/>} path='/' exact/>
         <Route element= {<NasaPhoto/>}  path='/nasafoto' />
-        <Route element= {<NotFoung />}  path='*' />
+        <Route element= {<NotFound />}  path='*' />
         <Route/>
       </Routes>
     </BrowserRouter>
