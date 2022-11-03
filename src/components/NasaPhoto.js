@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import NabVar from './NabVar';
+import NabVar from './NavBar';
 import '../App.css';
 
 const apiKey = process.env.REACT_APP_NASA_KEY;
@@ -14,7 +14,6 @@ const NasaPhoto = () => {
             );
             const data = await res.json();
             setFotoData(data)
-            console.log(data)
         }
     }, [])
 

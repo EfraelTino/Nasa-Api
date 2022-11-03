@@ -5,7 +5,7 @@ const NabVar = () => {
     return (
         <div className=' p-2 mb-3 back '>
             <ul className='container pt-3'>
-                <Link to='/' className='text-decoration-none text-dark link-me ' > <span><i class="bi bi-arrow-bar-left"></i> </span>Take Me Home</Link>
+                <Link to='/' className='text-decoration-none text-dark link-me ' > Take Me Home</Link>
             </ul>
         </div>
     );
